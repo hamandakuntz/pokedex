@@ -12,6 +12,8 @@ import logo from "../assets/images/logo-pokedex.png";
 
 export default function Login() {
     const [email, setEmail] = useState("");
+    const [iamge, setImage] = useState("");
+
     const [password, setPassword] = useState("");
 
     const { setToken } = useContext(UserContext);
