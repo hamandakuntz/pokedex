@@ -15,10 +15,7 @@ export default function Login() {
     const [password, setPassword] = useState("");
 
     const { setToken } = useContext(UserContext);
-    const history = useHistory();
-
-    const history = useHistory();
-    const history = useHistory();
+    const history = useHistory();  
 
     function submit(event) {
         event.preventDefault();
